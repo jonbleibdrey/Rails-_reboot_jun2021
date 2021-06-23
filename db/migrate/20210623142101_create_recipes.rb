@@ -6,7 +6,8 @@ class CreateRecipes < ActiveRecord::Migration[6.1]
       t.string :genre
       t.boolean :like
       t.binary :image
-
+      t.integer :user_id
+      
       t.timestamps
     end
   end
